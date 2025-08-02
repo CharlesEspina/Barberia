@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbería Duggan's</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="index">
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <p>Gracias por tu interés. Pronto habilitaremos el sistema de reservas.</p>
+      <button onclick="cerrarPopup()">Cerrar</button>
+    </div>
+  </div>  
+  <header>
+    <div class="titulo-header">
+      <span class="linea1">Barbería</span>
+      <span class="linea2">Duggan's</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>  
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="carousel">
+      <img src="img/carrusel1.jpg" class="carousel-img active" alt="Barbero trabajando">
+      <img src="img/carrusel2.jpg" class="carousel-img" alt="Herramientas de barbería">
+      <img src="img/carrusel3.jpg" class="carousel-img" alt="Cliente recibiendo corte">
+  
+      <button class="carousel-btn prev" onclick="cambiarSlide(-1)">&#10094;</button>
+      <button class="carousel-btn next" onclick="cambiarSlide(1)">&#10095;</button>
+    </div>
+  
+    <div class="hero-overlay">
+      <h2>¡Transforma tu look con nosotros!</h2>
+      <p>Cortes, afeitados y estilo profesional</p>
+      <br>
+      <a href="agendar-citas.html" class="boton-principal">Reservar cita</a>
+    </div>
+  </section>
+  
+  <section class="descripcion-section">
+    <div class="descripcion-texto">
+      <h2>¿Qué encontrarás en nuestra web?</h2>
+      <br>
+      <p>En nuestra página web encontrarás todo lo que necesitas para vivir una experiencia completa de barbería. 
+        <br>
+        Explora cada uno de nuestros servicios, desde cortes clásicos hasta estilos modernos, afeitados profesionales y tratamientos de cuidado facial. Conoce a nuestro talentoso equipo de barberos, apasionados por su trabajo y comprometidos con brindarte una atención personalizada y de alta calidad.
+        Además, podrás mantenerte al tanto de nuestras promociones especiales, horarios de atención y novedades del local. Navega con facilidad desde cualquier dispositivo, consulta nuestras redes sociales y agenda tu próxima cita de forma cómoda, rápida y sin complicaciones.
+        <br>
+        En Barbería Duggan’s, creemos que la imagen personal es una forma de expresión, y nuestra web está diseñada para ayudarte a dar ese paso con confianza, estilo y profesionalismo.</p>
+    </div>
+    <div class="descripcion-imagen">
+      <img src="img/descripcion.jpg" alt="Descripción" class="imagen-generica">
+    </div>
+  </section>
+  
+  <section class="refran-section">
+    <div class="refran-imagen">
+      <img src="img/refran.jpg" alt="Refrán" class="imagen-generica">
+    </div>
+    <div class="refran-texto">
+      <blockquote>
+        <em>“La primera impresión es la que cuenta. Cuida tu rostro, cuida tu imagen.”</em>
+      </blockquote>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Barbería Duggan's. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
